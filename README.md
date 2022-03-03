@@ -31,6 +31,7 @@ First, we choose some scene in the Pixar movie as our transformation style targe
 _**Figure 1 images in training set**_
 
 On the basis of the paper of Johnson et al [1], Model’s framework is divided into 2 parts (Fig 2). The first part is image transform network which consists of Deep Residual Network (Fig 3). Input is image to convert X.Output is converted image Y which combines style and content.
+
 ![](https://imgur.com/zoKLtZA.jpg) <br>
 _**Figure 2 system overview**_
 
@@ -100,6 +101,7 @@ We pick three real-world photos from COCO dataset and transform them into anime 
 
 ## 4.3 Time Performance
 As we had tried to train on two different models, we came out the efficiency of the two models to convert images was different.
+
 ![](https://imgur.com/LId4lkm.jpg) <br>
             Time consuming to transform one photo (Test image size:256x256)
             
